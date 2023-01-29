@@ -13,7 +13,7 @@ file_extensions = {
 }
 
 
-def get_downlaod_dir():
+def get_download_dir():
     # Download directory
     WIN_DOWNLOAD_DIR = f"C:\\Users\\{getpass.getuser()}\\Downloads\\"
     MAC_DOWNLOAD_DIR = f"/Users/{getpass.getuser()}/Downloads/"
@@ -40,7 +40,7 @@ def get_files(folder):
 
 def main():
 
-    download_dir = get_downlaod_dir()
+    download_dir = get_download_dir()
     files = get_files(download_dir)
     folders = file_extensions.keys()
 

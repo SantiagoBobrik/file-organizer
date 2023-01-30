@@ -68,8 +68,8 @@ downloads/
 The `file_extensions` dictionary stores a list of file extensions for different file categories. You can modify it to suit your needs by adding, removing, or changing the file extensions as needed. 
 The current file categories are:
 
-*   Images: `jpg`, `jpeg`, `png`, `gif`, `svg`, `bmp`, `ico`, `psd`, `tif`, `tiff`
-*   Documents: `doc`, `docx`, `pdf`, `txt`, `xls`, `xlsx`, `ppt`, `pptx`
+*   Images: `jpg`, `jpeg`, `png`, `gif`, `svg`, `bmp`, `ico`, `psd`, `tif`, `tiff`, `webp`
+*   Documents: `doc`, `docx`, `pdf`, `txt`, `xls`, `xlsx`, `ppt`, `pptx`, `md`, `epub`, `csv`
 *   Apps: `exe`, `dmg`, `pkg`, `deb`, `rpm`
 *   Compressed: `zip`, `rar`, `tar`, `gz`, `7z`, `iso`
 *   Sounds: `mp3`, `wav`, `ogg`, `flac`, `aac`

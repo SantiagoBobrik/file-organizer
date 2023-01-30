@@ -1,6 +1,8 @@
 import time
 import os
 import getpass
+import platform as pf
+
 
 file_extensions = {
     'images': ['jpg', 'jpeg', 'png', 'gif', 'svg', 'bmp', 'ico', 'psd', 'tif', 'tiff'],
@@ -17,11 +19,12 @@ def get_download_dir():
     # Download directory
     WIN_DOWNLOAD_DIR = f"C:\\Users\\{getpass.getuser()}\\Downloads\\"
     MAC_DOWNLOAD_DIR = f"/Users/{getpass.getuser()}/Downloads/"
+    platform = pf.platform()
 
     # SO check
-    if os.name == 'nt':
+    if platform.startswith('Windows'):
         download_dir = WIN_DOWNLOAD_DIR
-    elif os.name == 'MacOS':
+    elif platform.startswith('macOS'):
         download_dir = MAC_DOWNLOAD_DIR
     else:
         print("OS not supported.")

@@ -6,7 +6,7 @@ import platform as pf
 
 file_extensions = {
     'images': ['jpg', 'jpeg', 'png', 'gif', 'svg', 'bmp', 'ico', 'psd', 'tif', 'tiff'],
-    'documents': ['doc', 'docx', 'pdf', 'txt', 'xls', 'xlsx', 'ppt', 'pptx'],
+    'documents': ['doc', 'docx', 'pdf', 'txt', 'xls', 'xlsx', 'ppt', 'pptx', 'epub', 'md'],
     'apps': ['exe', 'dmg', 'pkg', 'deb', 'rpm'],
     'compressed': ['zip', 'rar', 'tar', 'gz', '7z', 'iso'],
     'sounds':  ['mp3', 'wav', 'ogg', 'flac', 'aac'],
